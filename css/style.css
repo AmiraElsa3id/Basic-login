@@ -1,0 +1,58 @@
+:root{
+    --bg-color:#24353f;
+    --main-txt-color:#17a2b8;
+    --txt-color:#495057;
+}
+
+body{
+    background:var(--bg-color) ;
+    font-family: 'Titillium Web', sans-serif;
+}
+.box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: var(--main-txt-color);
+    font-size: 2.5rem;
+}
+input{
+    color: #fff;
+}
+.form-control {
+    background-color: var(--bg-color);
+    color: #fff;
+}
+.form-control::placeholder{
+    color: #ced4da;
+}
+.form-control:focus {
+    color: #fff;
+    background-color: var(--bg-color);
+    border-color: #80bdff;
+    box-shadow: none;
+}
+.btn-outline-warning{
+    border: #ffc107 solid 2px;
+}
+.outer .btn{
+    color: var(--main-txt-color);
+    border-color: var(--main-txt-color);
+}
+.outer .btn:hover{
+    background-color: var(--main-txt-color);
+    color: #fff;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+    .signup-box #exist , #login-box #incorrect{
+    color:#dc3545;
+}
+
+.box p a{
+    text-decoration: none;
+}
+.box p a:hover{
+    text-decoration: underline
+}
